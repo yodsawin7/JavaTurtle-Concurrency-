@@ -16,7 +16,7 @@ public class Bob implements Runnable {
         for(int i=0;i<this.round;i++)
         {
             bob.forward(i/50.);
-            bob.left(5);
+            bob.right(5);
         }
     }
 }

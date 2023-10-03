@@ -1,15 +1,15 @@
-public class Bob2 implements Runnable {
+public class Bob3 implements Runnable {
     private int positionX, positionY, round;
     private String penColor;
 
-    public Bob2(int positionX, int positionY, String penColor, int round) {
+    public Bob3(int positionX, int positionY, String penColor, int round) {
         this.positionX = positionX;
         this.positionY = positionY;
         this.penColor = penColor;
         this.round = round;
     }
 
-    public Bob2() {
+    public Bob3() {
     }
 
     @Override
@@ -27,3 +27,4 @@ public class Bob2 implements Runnable {
     }
 
 }
+
